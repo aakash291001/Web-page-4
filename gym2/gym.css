@@ -1,0 +1,235 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    font-family: cursive;
+}
+body
+{
+    /* height: 1000px; */
+    background-image: url(gym_back2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#form1
+{
+    border: 2px solid black;
+    height: 80px;
+    width: 1236px;
+    box-sizing: border-box;
+}
+.navbar
+{
+    position: fixed;
+    /* top: 0px; */
+    background-color: black;
+    color: #75808270;
+    width: 100%;
+    clear: both;
+    border-bottom: 2px solid white;
+    z-index: 10;
+}
+#logo1
+{
+    float: left;
+    width: 130px;
+    height: 130px;
+    /* opacity: 0.5; */
+}
+#heading1
+{
+    float: left;
+    font-size: 50px;
+    box-sizing: border-box;
+    color: rgb(97, 129, 161);
+    margin-right: 50px;
+    margin-top: 35px;
+    margin-left: 50px;
+}
+.navbar ul{
+    /* very important to prevent overflow */
+    overflow: auto;
+    height: 130px;
+}
+a
+{
+    color: white;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    padding: 10px 8px;
+    border-radius: 40px;
+    border: 2px solid white;
+
+    /* width: 100px; */
+    font-size: 20px;
+    /* height: 30px; */
+}
+.navbar li:hover
+{
+    background-color: white;
+}
+a:hover
+{
+    color: black;
+    font-weight: bolder;
+}
+.navbar input
+{
+    float: right;
+    /* margin: 15px 0px 0px 10px; */
+    font-size: 15px;
+    /* width: 250px; */
+    /* padding: 4px 6px 4px 4px; */
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+.navbar input:hover
+{
+    color: black;
+    font-weight: bolder;
+    background-color: white;
+    background-color: white;
+}
+#searchbar
+{
+    margin-top: 56px;
+width: 250.667px;
+height: 38px;
+}
+.line1
+{
+    margin: 50px 5px 0px 0px;
+}
+.container
+{
+    position: relative;
+    top: 130px;
+    width: 1236px;
+    float: right;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.box
+{
+    /* border: 2px solid black; */
+    display: inline-block;
+    width: 33%;
+    color: black;
+    box-sizing: border-box;
+    /* border-top: 2px solid white; */
+}
+.box:hover
+{
+    /* border: 2px solid black; */
+    display: inline-block;
+    width: 33%;
+    box-sizing: border-box;
+    font-weight: bolder;
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.815);
+    /* border-top: 2px solid white; */
+}
+.line2
+{
+    background-color: rgba(0, 0, 0, 0.658);
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    width: 80%;
+    margin: 2px auto;
+    box-sizing: border-box;
+}
+.para
+{
+    padding: 20px;
+}
+#para1
+{
+    /* background-image: url(gym_back3.jpg); */
+    background-size: cover;
+    color:white;
+}
+.paraimg
+{
+    display: block;
+    width: 50%;
+    height: 150px%;
+    margin: auto;
+    /* box-sizing: border-box; */
+}
+#paraimg1
+{
+    height: 134.617px;
+}
+#form1
+{
+    margin: 5px 0px 0px 20px;
+    width: 50%;
+    padding: 10px;
+    height: 296px;
+}
+.lables
+{
+    display: block;
+}
+.lables2
+{
+    display: inline-block;
+    margin-right: 20px;
+}
+.labelname
+{
+    display: inline-block;
+    width: 48%;
+}
+#fname1
+{
+    display: inline-block;
+    width: 48%;
+}
+#fname2
+{
+    display: inline-block;
+    width: 48%;
+}
+#form1heading
+{
+    text-align: center;
+    font-weight: bolder;
+}
+input
+{
+    background-color:black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+#submit
+{
+    display: block;
+    width: 50%;
+    background-color:black;
+    color: white;
+    padding: 5px;
+    margin: 10px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+#submit:hover
+{
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    font-size: 15px;
+    width: 60%;
+    padding: 7px;
+}
